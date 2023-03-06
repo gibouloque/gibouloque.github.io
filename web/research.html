@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  
+  <meta charset="UTF-8" />
+  <title>Quentin Giboulot</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="keywords" content="" />
+  <meta name="description" content="" />
+  <meta name="author" content="Quentin Giboulot" />
+  <meta name="copyright" content="©Quentin Giboulot | 2020" />
+  <link rel="canonical" href="https://nicolas.burger.fr" />
+
+  <meta property="og:title" content="Quentin Giboulot" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="../img/hitchhiking.jpg" />
+  <meta property="og:url" content="https://nicolasburger.fr" />
+  <meta property="og:site_name" content="Quentin Giboulot" />
+  <meta property="og:description"
+    content="Portfolio of Quentin Giboulot, PhD student in Optimization and Security of Systems" />
+  <meta name="twitter:site" content="@burgerni10" />
+  <meta name="twitter:title" content="Quentin Giboulot" />
+  <meta name="twitter:image" content="../img/hitchhiking.jpg" />
+  <meta name="twitter:url" content="https://nicolasburger.fr/" />
+  <meta name="twitter:card"
+    content="Portfolio of Quentin Giboulot, PhD student in Optimization and Security of Systems" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="../css/main.css" />
+
+  <!-- FICHIERS -->
+  <link rel="icon" type="image/png" sizes="32x32" href="../img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../img/favicon-16x16.png">
+  <!-- CDN  -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+    integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
+  <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap" rel="stylesheet">
+  <script src="../js/language.js"></script>
+</head>
+
+<body class="project-body">
+  <nav class="top-bar">
+    <span class="logo font-w-700"><a href="../index.html">Quentin Giboulot</a></span>
+
+    <div class="nav-container">
+      <input class="menu-btn" type="checkbox" id="menu-btn" />
+      <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+      <ul class="menu">
+        <li class="font-w-700">
+          <a href="./research.html" id="intl-nav-industrial">Research</a>
+        </li>
+        <li class="font-w-700">
+          <a href="./pub.html" id="intl-nav-academic">Publications</a>
+        </li>
+
+        <li class="font-w-700">
+          <a href="./code.html" id="intl-nav-asso">Code</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <div class="main-container">
+    <ul class="project-list">
+      <li class="project">
+        <div class="description">
+          <h2 class="desc-title" id="intl-academic-doctorate-title">PhD</h2>
+          <div class="desc-content">
+            <p id="intl-academic-doctorate-desc1">
+              I am currently working on my PhD thesis at the <a target='blank'
+                hreaf='http://icd.utt.fr/fr/index.html'>Charles Delaunay Institut</a> at the University of
+              Technology of Troyes, under the supervision of <a target='blank'
+                href='http://remi.cogranne.pagesperso-orange.fr/recherche_publi.htm'>Rémi Cogranne</a> and 
+				<a target='blank' 
+				href='http://patrickbas.ec-lille.fr/Patrick_Bas_home_page/Home_Page.html'>Patrick Bas</a>.
+            </p>
+            <br />
+            <p id="intl-academic-doctorate-desc2">
+              Current steganography and steganalysis techniques have mainly been developed to work in a controlled setting
+			  and are far from adapted to a real-world use. The aim of my PhD is to give guarantees of performance when using these techniques 
+			  in order for them to be usable in an operationnal environnement. In particular, an embedding scheme should be able to give guarrentees of 
+			  detectability while a steganalysis method should be able to work at a guarrented false alarm rate.
+            </p>
+          </div>
+        </div>
+        <img class="img-fit-contain" alt="" src="../img/doctorate.jpg" />
+      </li>
+      <li class="project">
+        <img class="img-fit-contain" alt="" src="../img/cov.png" />
+        <div class="description">
+          <h2 class="desc-title" id="intl-academic-master-title">Model-based steganography</h2>
+          <div class="desc-content">
+            <p id="intl-academic-master-desc1">
+              To be able to give guarantees in detectability, steganography must rest on a model of natural images.
+			  Due to the complexity of the task of giving a model for natural images themselves, the steganographer can, instead,
+			  model the noise of natural images.
+            </p>
+            <br />
+            <p id="intl-academic-master-desc2">
+              Once a model is defined for both the cover and stego noise model, one can use a statistical hypothesis testing
+			  framework to derive an optimal detector which can be used to formally define detectability.
+			  The steganographer can then use this knowledge of the optimal detector to control precisely the detectability of her embedding 
+			  against this optimal detector.
+			  However, to formulate such a model in a general case is still challenging due to the fact that processing pipelines introduces dependencies in the noise
+			  and because images are usually compressed.
+			  
+			  We gave several variants of such steganography schemes using a Gaussian stego signal in these publications :  
+			  <a target='blank'href='https://ieeexplore.ieee.org/document/9054486'/>
+			  10.1109/ICASSP40776.2020.9054486</a>, 
+			  <a target='blank'href='https://ieeexplore.ieee.org/document/9316913'/>10.1109/TIFS.2021.3050063</a> and 
+			  <a target='blank'href='https://ieeexplore.ieee.org/document/9360884'/>10.1109/WIFS49906.2020.9360884</a> 
+			  
+            </p>
+          </div>
+        </div>
+      </li>
+      <li class="project">
+        <div class="description">
+          <h2 class="desc-title" id="intl-academic-teaching-title">ALASKA Challenge</h2>
+          <div class="desc-content">
+            <p id="intl-academic-teaching-desc1">
+              I was co-organizer of the <a target='blank'
+                href='http://alaska.utt.fr/'>ALASKA steganalysis challenge</a> with Rémi Cogranne and Patrick Bas.
+				ALASKA was a steganalysis challenge which meant to bring steganalysis practice a little bit more into the real-world. 
+				The main challenge was to deal with highly diverse datasets of JPEG embedded images.
+				Following an experimental study I had performed (see the Cover-Source Mismatch section), we chose to diversify 
+				the parameters which had the highest impact on the current best steganalysis detectors performance :
+				JPEG quality factors, sensors, processing pipeline, image size, embedding algorithms, payloads.
+				I developed most of the Python script used to generate the different datasets in the competition.
+				
+            </p>
+            <br />
+            <p id="intl-academic-teaching-desc2">
+              The  <a target='blank'
+                href='http://dde.binghamton.edu/DDE'/>Binghamton research team</a> and I also were contestants in the challenge. 
+			  We ranked first out of all the other team involved.
+			  See our publications for more information on the competitions and what has been learned from them : 
+			  <a target='blank'href='https://dl.acm.org/doi/10.1145/3335203.3335726'/>10.1145/3335203.3335726</a> for ALASKA1 and
+			  <a target='blank'href='https://hal-utt.archives-ouvertes.fr/hal-02950094'/>10.1109/WIFS49906.2020.9360896</a> for ALASKA2.
+            </p>
+          </div>
+        </div>
+        <img class="img-fit-contain" alt="" src="../img/photo.png" />
+      </li>
+      <li class="project">
+        <img class="img-fit-contain" alt="" src="../img/csm.png" />
+        <div class="description">
+          <h2 class="desc-title" id="intl-academic-papers-title">Cover-Source Mismatch study</h2>
+          <div class="desc-content">
+            <p id="intl-academic-papers-desc1">
+              Most modern steganalysis method are based on a supervised learning approach. It is well known that such an 
+			  approach only works if the training test and the testing set are "close" in some sense. For steganalysis in particular, this
+			  phenomenon is known as "Cover-Source Mismatch" to refer to the loss of performance when images between training and testing set 
+			  do not come from the same source.
+            </p>
+            <br />
+            <p id="intl-academic-papers-desc2">
+              However, few studies had been performed to define precisely what a source really is in steganalysis.
+			  One of a the goals of my thesis was then to delineate the parameters of natural images which truly impact steganalysis.
+            </p>
+          </div>
+        </div>
+      </li>
+
+  <footer class="main-footer">
+    <div class="language">
+      <ul>
+        <li>
+          <img alt="fr-FR" class="flag" src="../img/flags/fr.svg" onclick="chooseLanguage('fr-FR', true)" />
+        </li>
+        <li>
+          <img alt="en-GB" class="flag" src="../img/flags/gb.svg" onclick="chooseLanguage('en-GB')" />
+        </li>
+      </ul>
+      <p>©Quentin Giboulot 2020</p>
+    </div>
+    <div class="footer-nav">
+      <h4 id="intl-footer-siteMap">Site map</h4>
+      <ul>
+        <li><a href="../index.html" id="intl-footer-home">Home</a></li>
+        <li>
+          <a href="../web/research.html" id="intl-footer-industrial">Research</a>
+        </li>
+        <li>
+          <a href="../web/pub.html" id="intl-footer-academic">Publications</a>
+        </li>
+        <li>
+          <a href="../web/code.html" id="intl-intl-footer-asso">Code</a>
+        </li>
+
+        <li>
+          <a href="../web/legals.html" id="intl-footer-legals">Legals</a>
+        </li>
+      </ul>
+    </div>
+    <div class="contact">
+      <ul>
+        <li>
+          <a href="mailto:quentin.giboulot@utt.fr" title="quentin.giboulot@utt.fr"><i class="fas fa-paper-plane"
+              style="width:20px"> </i><span id="intl-footer-sendEmail">Send an email</span>
+          </a>
+        </li>
+        <li>
+          <a target="_blank" href="https://orcid.org/0000-0002-0277-5999"><i class="fab fa-researchgate"
+              style="width:20px"> </i>ORCID
+          </a>
+        </li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+
+</html>
