@@ -229,6 +229,23 @@
           color: #35557b; }
         .main-container-index .categories ul li p {
           text-align: justify; }
+		  
+	.main-container-index .publi {
+    position: relative;
+    width: 100vw;
+    min-width: 480px;
+    height: 500px;
+    overflow: auto;
+    padding-right: 10px; }
+    .main-container-index .publi ul {
+      width: 100%;
+      list-style: none; }
+      .main-container-index .publi ul li {
+        padding-bottom: 20px; }
+        .main-container-index .publi ul li h2 {
+          color: #35557b; }
+        .main-container-index .publi ul li p {
+          text-align: justify; }
 
 @media (max-width: 900px) {
   .main-container-index {
